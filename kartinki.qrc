@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>img/ura.PNG</file>
+        <file>img/jiiiiir.PNG</file>
+        <file>img/izi.PNG</file>
+        <file>img/iziiiii.PNG</file>
+        <file>img/umar chmo.PNG</file>
+        <file>img/123456.PNG</file>
+        <file>img/12345.PNG</file>
+    </qresource>
+</RCC>

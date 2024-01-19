@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FourthWindow</class>
+ <widget class="QDialog" name="FourthWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>447</width>
+    <height>310</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>0</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>2000</width>
+    <height>1500</height>
+   </size>
+  </property>
+  <property name="cursor">
+   <cursorShape>CrossCursor</cursorShape>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);
+selection-background-color: rgb(254, 229, 255);</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="1">
+    <spacer name="verticalSpacer_2">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>38</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="1" column="0" rowspan="2">
+    <spacer name="horizontalSpacer">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>63</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="1" column="1">
+    <widget class="QTableWidget" name="tableWidget3">
+     <property name="minimumSize">
+      <size>
+       <width>310</width>
+       <height>100</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>310</width>
+       <height>100</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;Segoe MDL2 Assets&quot;;
+border-color: rgb(0, 0, 0);
+gridline-color: rgb(0, 0, 0);</string>
+     </property>
+     <property name="sizeAdjustPolicy">
+      <enum>QAbstractScrollArea::AdjustIgnored</enum>
+     </property>
+     <row>
+      <property name="text">
+       <string>за 6 месяц</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>за 12 месяц</string>
+      </property>
+     </row>
+     <column>
+      <property name="text">
+       <string>Дата</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Рост</string>
+      </property>
+     </column>
+    </widget>
+   </item>
+   <item row="1" column="2" rowspan="2">
+    <spacer name="horizontalSpacer_2">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>63</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="2" column="1">
+    <widget class="QPushButton" name="saveButton">
+     <property name="minimumSize">
+      <size>
+       <width>310</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>310</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 700 9pt &quot;System&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Сохранить</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="1">
+    <widget class="QPushButton" name="deleteButton">
+     <property name="minimumSize">
+      <size>
+       <width>310</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>310</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 700 9pt &quot;System&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Удалить</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="1">
+    <widget class="QPushButton" name="graphButton">
+     <property name="minimumSize">
+      <size>
+       <width>310</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>310</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 700 9pt &quot;System&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Построить график</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="1">
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>38</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
